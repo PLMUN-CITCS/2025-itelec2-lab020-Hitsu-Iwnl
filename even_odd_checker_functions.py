@@ -1,5 +1,4 @@
 def get_integer_input() -> int:
-    """Prompts the user to enter an integer and handles input validation."""
     while True:
         try:
             return int(input("Enter an integer: "))
