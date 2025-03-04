@@ -11,4 +11,6 @@ def check_even_odd(number: int) -> str:
 if __name__ == "__main__":
     """Main program to check if a number is Even or Odd."""
     user_number = get_integer_input()
+
+
     print(check_even_odd(user_number))
